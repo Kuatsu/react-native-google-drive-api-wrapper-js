@@ -1,0 +1,32 @@
+{
+  "author": "Kuatsu Digital Agency <hello@kuatsu.de>",
+  "dependencies": {
+    "base64-js": "^1.5.1",
+    "simple-common-utils": "^2.3.0",
+    "utf8": "^3.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "description": "Fork of @robinbobin/react-native-google-drive-api-wrapper providing pure JS source files & TypeScript definitions",
+  "keywords": [
+    "Google Drive API",
+    "React Native"
+  ],
+  "license": "MIT",
+  "name": "react-native-google-drive-api-wrapper-js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Kuatsu/react-native-google-drive-api-wrapper-js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "version": "1.2.3",
+  "devDependencies": {
+    "@types/react-native": "^0.71.5",
+    "prettier": "2.7.1"
+  }
+}
